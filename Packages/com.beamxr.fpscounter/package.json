@@ -1,0 +1,21 @@
+{
+  "name": "com.beamxr.fpscounter",
+  "version": "1.0.0",
+  "displayName": "FPSCounter",
+  "description": "Minimal counter for frames per second.",
+  "unity": "2020.3",
+  "unityRelease": "28f1",
+  "documentationUrl": "https://example.com/",
+  "changelogUrl": "https://example.com/changelog.html",
+  "licensesUrl": "https://example.com/licensing.html",
+  "dependencies": {
+  },
+  "keywords": [
+    "FPSCounter"
+  ],
+  "author": {
+    "name": "BeamXR",
+    "email": "contact@beam-cross-realities.com",
+    "url": "https://www.beam-cross-realities.com"
+  }
+}
