@@ -40,8 +40,6 @@ namespace BeamXR.FPSConuter
 
         private void UpdateFrameCounter()
         {
-            Debug.Log("UpdateFrameCounter");
-
             _timeFactor += Time.timeScale / Time.deltaTime;
             _frameCount++;
         }
