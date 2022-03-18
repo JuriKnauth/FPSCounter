@@ -5,10 +5,16 @@
   "description": "Minimal counter for frames per second.",
   "unity": "2020.3",
   "unityRelease": "28f1",
-  "documentationUrl": "https://example.com/",
-  "changelogUrl": "https://example.com/changelog.html",
-  "licensesUrl": "https://example.com/licensing.html",
+  "documentationUrl": "https://beam-cross-realities.com/",
+  "changelogUrl": "https://beam-cross-realities.com/",
+  "licensesUrl": "https://beam-cross-realities.com/",
   "dependencies": {
+  },
+  "category": "Libraries",
+  "repository": {
+    "url": "https://github.com/JuriKnauth/FPSCounter.git",
+    "type": "git",
+    "revision": "29ea4d6504a5f58fb3a6934db839aa80ae6d9d88"
   },
   "keywords": [
     "FPSCounter"
