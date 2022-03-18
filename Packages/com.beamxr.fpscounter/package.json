@@ -9,8 +9,6 @@
   "changelogUrl": "https://example.com/changelog.html",
   "licensesUrl": "https://example.com/licensing.html",
   "dependencies": {
-    "com.beamxr.fpscounter": "git://github.com/JuriKnauth/FPSCounter.git",
-    "com.beamxr.fpscounter1": "git://github.com/JuriKnauth/FPSCounter"
   },
   "keywords": [
     "FPSCounter"
