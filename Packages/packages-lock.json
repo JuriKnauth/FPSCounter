@@ -4,10 +4,7 @@
       "version": "file:com.beamxr.fpscounter",
       "depth": 0,
       "source": "embedded",
-      "dependencies": {
-        "com.beamxr.fpscounter": "git://github.com/JuriKnauth/FPSCounter.git",
-        "com.beamxr.fpscounter1": "git://github.com/JuriKnauth/FPSCounter"
-      }
+      "dependencies": {}
     },
     "com.unity.collab-proxy": {
       "version": "1.15.7",
