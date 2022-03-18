@@ -13,8 +13,7 @@
   "category": "Libraries",
   "repository": {
     "url": "https://github.com/JuriKnauth/FPSCounter.git",
-    "type": "git",
-    "revision": "29ea4d6504a5f58fb3a6934db839aa80ae6d9d88"
+    "type": "git"
   },
   "keywords": [
     "FPSCounter"
