@@ -1,6 +1,6 @@
 {
   "name": "com.beamxr.fpscounter",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "FPSCounter",
   "description": "Minimal counter for frames per second.",
   "unity": "2020.3",
