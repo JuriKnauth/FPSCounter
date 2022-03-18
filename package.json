@@ -1,23 +1,24 @@
 {
+  "displayName": "FPSCounter",
   "name": "com.beamxr.fpscounter",
   "version": "1.0.3",
-  "displayName": "FPSCounter",
-  "description": "Minimal counter for frames per second.",
   "unity": "2020.3",
   "unityRelease": "28f1",
+  "description": "Minimal counter for frames per second.",
+  "keywords": [
+    "FPSCounter"
+  ],
+  "category": "Libraries",
+  "repository": {
+    "url": "https://github.com/JuriKnauth/FPSCounter.git",
+    "type": "git",
+    "revision": "0123456789012345678901234567890123456789"
+  },
   "documentationUrl": "https://beam-cross-realities.com/",
   "changelogUrl": "https://beam-cross-realities.com/",
   "licensesUrl": "https://beam-cross-realities.com/",
   "dependencies": {
   },
-  "category": "Libraries",
-  "repository": {
-    "url": "https://github.com/JuriKnauth/FPSCounter.git",
-    "type": "git"
-  },
-  "keywords": [
-    "FPSCounter"
-  ],
   "author": {
     "name": "BeamXR",
     "email": "contact@beam-cross-realities.com",
