@@ -1,5 +1,6 @@
 #if !RELEASE
 using UnityEngine;
+using UnityEngine.Events;
 
 namespace BeamXR.FPSConuter
 {
@@ -12,6 +13,8 @@ namespace BeamXR.FPSConuter
         private float _timeFactor;
         private float _framesPerSecond;
         private int _frameCount;
+
+        public static UnityEvent<float> OnUpdateFrameCounterGUI;
 
         [RuntimeInitializeOnLoadMethod]
         private static void AppInit()
@@ -50,6 +53,8 @@ namespace BeamXR.FPSConuter
             _framesPerSecond = _timeFactor / _frameCount;
             _timeFactor = 0f;
             _frameCount = 0;
+
+            OnUpdateFrameCounterGUI?.Invoke(_framesPerSecond);
         }
 
         private void OnGUI()
