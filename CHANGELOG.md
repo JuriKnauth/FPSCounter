@@ -29,3 +29,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [1.0.5] - 2022-04-07
 ### Added
 - Added Event OnUpdateFrameCounterGUI
+
+## [1.0.6] - 2022-04-07
+### Added
+- Changed Event OnUpdateFrameCounterGUI to Action

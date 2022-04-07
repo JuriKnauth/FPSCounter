@@ -1,6 +1,6 @@
 #if !RELEASE
+using System;
 using UnityEngine;
-using UnityEngine.Events;
 
 namespace BeamXR.FPSConuter
 {
@@ -14,7 +14,7 @@ namespace BeamXR.FPSConuter
         private float _framesPerSecond;
         private int _frameCount;
 
-        public static UnityEvent<float> OnUpdateFrameCounterGUI;
+        public static Action<float> OnUpdateFrameCounterGUI;
 
         [RuntimeInitializeOnLoadMethod]
         private static void AppInit()
